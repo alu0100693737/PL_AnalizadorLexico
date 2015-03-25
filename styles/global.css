@@ -1,0 +1,62 @@
+ html * {
+    font-family: "sans-serif";
+  }
+  body {
+      font: small-caps 15px serif;
+      color: black;
+      margin-left: 5%;
+      margin-right: 20%;
+      background-repeat: no-repeat;background: url(2.jpg) no-repeat ;
+      background-size: cover;
+  }
+h1 { text-align: center; font-size: 30px; }
+h2 { text-align: center; font-size: 15px; }
+h3 {font-size: 15px;}
+div1{font-size: 20px; color: white; }
+
+table {
+    margin-bottom: 1.25rem;
+    border: 1px solid #6f6f6f;
+}
+table.center {
+    margin-left:auto;
+    margin-right:auto;
+}
+textarea {
+    border-radius: 0px;
+    background-color: white;
+    font-family: inherit;
+    border: 1px solid rgb(204, 204, 204);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1) inset;
+    color: rgba(0, 0, 0, 0.75);
+    display: block;
+    font-size: 0.875rem;
+    margin: 0px 0px 1rem;
+    padding: 0.5rem;
+    max-width: 100%;
+    min-height: 150px;
+    min-width: 25%;
+}
+
+#finaltable:hover td {
+    background-color: rgb(0, 186, 27);
+    transition: background-color 300ms ease-out 0s;
+    font: small-caps 20px serif;
+}
+
+#result { border-color: red; }
+tr.error { background-color: red; }
+
+.column, .columns {
+position: relative;
+padding-left: 0.9375rem;
+padding-right: 0.9375rem;
+width: 100%;
+float: left;
+}
+
+a {
+color: orange;
+text-decoration: underline;
+line-height: inherit;
+}
