@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mocha</title>
+    <style>
+    div.hiddenTestElements {
+    display: none;
+    }
+    </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mocha.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+</head>
+<body>
+    <div id="mocha"></div>
+    <div class="hiddenTestElements">
+    <textarea id="INPUT"></textarea>
+    <input id="PARSE" value=parse type=button class="mylink">
+    <pre id=OUTPUT></pre>
+    </div>
+    <script src="chai.js"></script>
+    <script src="mocha.js"></script>
+    <script src="sinon-1.13.0.js"></script>
+    <script src="blanket.js" data-cover-adapter="mocha-blanket.js"></script>
+    <script>mocha.setup('tdd')</script>
+    <script src="../parse.js" data-cover></script>
+    <script src="../tokens.js" data-cover></script>
+    <script src="../main.js" data-cover></script>
+    <script src="tests.js"></script>
+    <script>
+    mocha.run();
+    </script>
+</body>
+</html>
