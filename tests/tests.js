@@ -36,12 +36,12 @@ setup(function(){
   test('Prueba require();', function() {
   INPUT.value = 'require("hola");';
   main();
-  assert.deepEqual(OUTPUT.innerHTML, '{\n    "name": "TypeError",\n    "message": "undefined is not a function"\n}');
+  assert.deepEqual(OUTPUT.innerHTML, '{\n    "name": "TypeError",\n    "message": "this.error is not a function"\n}');
   });
   
   test('Prueba var=require();', function() {
   INPUT.value = 'var a = require("hola");';
   main();'{\n "value": "=",\n "arity": "binary",\n "first": {\n "value": "a",\n "arity": "name"\n },\n "second": {\n "value": "require",\n "arity": "function",\n "first": {\n "value": "hola",\n "arity": "literal"\n }\n }\n}'
-  assert.deepEqual(OUTPUT.innerHTML, '{\n    "name": "TypeError",\n    "message": "undefined is not a function"\n}');
+  assert.deepEqual(OUTPUT.innerHTML, '{\n    "name": "TypeError",\n    "message": "this.error is not a function"\n}');
   });
 });
