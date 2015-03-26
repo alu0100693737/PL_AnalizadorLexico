@@ -11,6 +11,8 @@ http://alu0100693737.github.io/PL_csv/
 ##Despliegue Heroku
 
 ##Github pages and tests
+http://alu0100693737.github.io/PL_AnalizadorLexico/
+http://alu0100693737.github.io/PL_AnalizadorLexico/tests/index.html
 
 ### Javascript application: Analizador Lexico
 
