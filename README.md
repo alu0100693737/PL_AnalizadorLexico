@@ -6,13 +6,13 @@ Nota: esta pagina ha sido desarrollada usando Marckdown.
 
 ### ***analizador lexico***
 
-http://alu0100693737.github.io/PL_csv/
-
-##Despliegue Heroku
+##Despliegue Heroku and tests
 https://guarded-gorge-3606.herokuapp.com/
+https://guarded-gorge-3606.herokuapp.com/tests/index.html
 
 ##Github pages and tests
 http://alu0100693737.github.io/PL_AnalizadorLexico/
+
 http://alu0100693737.github.io/PL_AnalizadorLexico/tests/index.html
 
 ### Javascript application: Analizador Lexico
