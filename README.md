@@ -1,5 +1,5 @@
 # Practica 4. Analizador Lexico. #
-CSV ANALYZER    [![Build Status](https://travis-ci.org/alu0100693737/PL_AnalizadorLexico.svg)](https://travis-ci.org/alu0100693737/PL_AnalizadorLexico)
+ ANALYZER    [![Build Status](https://travis-ci.org/alu0100693737/PL_AnalizadorLexico.svg)](https://travis-ci.org/alu0100693737/PL_AnalizadorLexico)
 
 Nota: esta pagina ha sido desarrollada usando Marckdown.
 --------------------------------------------------------
