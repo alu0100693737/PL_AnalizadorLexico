@@ -1,26 +1,4 @@
 {
-"name": "PL Analizador Lexico",
-"version": "0.0.1",
-"description": "Analizador lexico",
-"main": "main.js",
-"scripts": {
-"test": "gulp test"
-},
-"repository": {
-"type": "git",
-"url": "https://github.com/alu0100693737/PL_AnalizadorLexico"
-},
-"keywords": [
-"regexp",
-"lexer",
-"javascript"
-],
-"author": "Ivan Garcia Campos",
-"license": "ISC",
-"bugs": {
-"url": "https://github.com/alu0100693737/PL_AnalizadorLexico/issues"
-},
-"homepage": "https://github.com/alu0100693737/PL_AnalizadorLexico",
 "engines": {
 "node": "0.10.x"
 },
@@ -38,23 +16,41 @@
 "del": "^1.1.1",
 "gulp": "^3.8.11",
 "gulp-concat": "^2.5.2",
-"gulp-karma": "*",
 "gulp-minify-css": "^0.4.6",
 "gulp-minify-html": "^1.0.0",
-"gulp-shell": "*",
 "gulp-uglify": "^1.1.0",
 "gulp-util": "^3.0.4",
-"jasmine-core": "^2.2.0",
-"karma": "*",
-"karma-chrome-launcher": "*",
-"karma-firefox-launcher": "*",
-"karma-html2js-preprocessor": "*",
-"karma-jasmine": "^0.3.5",
-"karma-mocha": "*",
-"karma-phantomjs-launcher": "*",
+"gulp-karma": "*",
+"gulp-shell": "*",
 "mocha": "latest",
-"node-static": "^0.7.6",
-"supervisor": "*",
-"supertest": "*"
-}
+"karma": "*",
+"karma-mocha": "*",
+"karma-html2js-preprocessor": "*",
+"karma-phantomjs-launcher": "*",
+"node-static": "^0.7.6"
+},
+"name": "PL_AnalizadorLexico",
+"version": "0.0.1",
+"description": "",
+"main": "main.js",
+"directories": {
+"test": "tests"
+},
+
+"repository": {
+"type": "git",
+"url": "https://github.com/alu0100693737/PL_AnalizadorLexico"
+},
+"keywords": [
+"comma",
+"separated",
+"value",
+"csv"
+],
+"author": "Ivan Garcia Campos",
+"license": "ISC",
+"bugs": {
+"url": "https://github.com/alu0100693737/PL_AnalizadorLexico/issues"
+},
+"homepage": "https://github.com/alu0100693737/PL_AnalizadorLexico"
 }
