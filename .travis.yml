@@ -7,4 +7,4 @@ before_script:
 - sleep 3
 branches:
 only:
-- gh-pages
+- master
