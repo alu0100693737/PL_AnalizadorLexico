@@ -37,14 +37,14 @@ setup(function(){
   INPUT.value = 'require("hola");';
   main();
 
-  assert.deepEqual(OUTPUT.innerHTML, '{\n    "name": "TypeError",\n    "message": "undefined is not a function"\n}');
+  assert.deepEqual(OUTPUT.innerHTML, '{\n    "name": "TypeError",\n    "message": "this.error is not a function"\n}');
 
   });
   
   test('Prueba var=require();', function() {
   INPUT.value = 'var a = require("hola");';
   main();
-  assert.deepEqual(OUTPUT.innerHTML, '{\n    "name": "TypeError",\n    "message": "undefined is not a function"\n}');
+  assert.deepEqual(OUTPUT.innerHTML, '{\n    "name": "TypeError",\n    "message": "this.error is not a function"\n}');
 
   });
 });
